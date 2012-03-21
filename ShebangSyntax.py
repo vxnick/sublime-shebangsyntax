@@ -22,7 +22,7 @@ class ShebangSyntaxCommand(sublime_plugin.TextCommand):
         current_syntax = self.view.settings().get('syntax')
 
         # Get the shebang components
-        m = re.search(r"#!\s*([^\s]+)\s*([^\s]+)?", line)
+        m = re.match(r"#!\s*([^\s]+)\s*([^\s]+)?", line)
 
         if not m:
             return
