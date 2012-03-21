@@ -1,4 +1,3 @@
-#!/usr/bin/python
 import sublime, sublime_plugin
 import os, re
 
