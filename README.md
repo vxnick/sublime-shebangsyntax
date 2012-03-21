@@ -1,5 +1,4 @@
-## ShebangSyntax - a Sublime Text 2 plugin to set a file's syntax based upon a
-shebang line (`#!/path/to/something`).
+## ShebangSyntax
 
 This plugin doesn't try to be too clever - it only operates on files without
 an extension (that is, without a dot (i.e. a period) anywhere in the file name).
