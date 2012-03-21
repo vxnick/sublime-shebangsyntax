@@ -6,9 +6,9 @@ an extension (that is, without a dot (i.e. a _period_) anywhere in the file name
 Anything with a file extension is probably best left to Sublime and other
 plugins.
 
-Next, the first line is checked to see if it contains a shebang (@#!@). If it
+Next, the first line is checked to see if it contains a shebang (`#!`). If it
 does, the path is matched along with an optional second group (after one or
-more spaces). This allows the plugin to work with @/usr/bin/env ruby@ without
+more spaces). This allows the plugin to work with `/usr/bin/env ruby` without
 thinking that _env_ is the syntax type.
 
 Once the plugin has figured out what the syntax type is (i.e. _ruby_, _php_,
