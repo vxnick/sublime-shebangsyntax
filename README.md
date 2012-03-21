@@ -1,11 +1,11 @@
-## ShebangSyntax
+## Shebang Syntax
 
 This plugin doesn't try to be too clever - it only operates on files without
 an extension (that is, without a dot (i.e. a period) anywhere in the file name).
 Anything with a file extension is probably best left to Sublime and other
-plugins.
+plugins. This plugin operates whenever the file is loaded or saved.
 
-Next, the first line is checked to see if it contains a shebang (`#!`). If it
+The first line is checked to see if it contains a shebang (`#!`). If it
 does, the path is matched along with an optional second group (after one or
 more spaces). This allows the plugin to work with `/usr/bin/env ruby` without
 thinking that _env_ is the syntax type.
