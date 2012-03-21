@@ -1,0 +1,21 @@
+// Add any custom associations here. By default, any syntax which is simply
+// upper-cased (such as 'ruby' to 'Ruby') will be done automatically, so there's
+// no need to add that here.
+//
+// For example, if you wanted to map '#!/usr/bin/env php54' to the "PHP" syntax,
+// you'd specify '"php54": ["PHP"]' below. Case sensitivity is important - the
+// value *must* match that of the syntax directory and file within the
+// 'Packages' directory. It's also important to wrap every value in [ ]
+//
+// Note that some syntax files are organised with a file name that differs from
+// the directory name.
+// Case in point would be "Shell Script (Bash)", which has the directory name of
+// "ShellScript" but the file name (inside that directory)
+// of "Shell-Unix-Generic".
+// You can see how that's organised below.
+
+{
+	"php": ["PHP"],
+	"sh": ["ShellScript", "Shell-Unix-Generic"],
+	"bash": ["ShellScript", "Shell-Unix-Generic"]
+}
