@@ -17,5 +17,6 @@
 {
 	"php": ["PHP"],
 	"sh": ["ShellScript", "Shell-Unix-Generic"],
-	"bash": ["ShellScript", "Shell-Unix-Generic"]
+	"bash": ["ShellScript", "Shell-Unix-Generic"],
+	"iced": ["IcedCoffeeScript", "Syntaxes/IcedCoffeeScript"]
 }
